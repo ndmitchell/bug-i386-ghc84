@@ -10,4 +10,4 @@ environment:
     STACK_ROOT: "c:\\sr"
 
 test_script:
-- stack install yaml --resolver nightly --arch i386
+- stack install yaml --resolver nightly --arch i386 -v --ghc-options=-v3
