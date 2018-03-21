@@ -10,6 +10,4 @@ environment:
     STACK_ROOT: "c:\\sr"
 
 test_script:
-- stack new simple --resolver nightly --arch i386
-- cd simple
-- ..\stack build
+- stack install yaml --resolver nightly --arch i386
